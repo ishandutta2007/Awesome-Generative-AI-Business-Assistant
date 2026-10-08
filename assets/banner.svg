@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#311042" />
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9" />
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      .title { font-family: system-ui, -apple-system, sans-serif; font-weight: 800; font-size: 46px; fill: url(#titleGrad); }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-weight: 500; font-size: 20px; fill: #94a3b8; }
+      .badge-text { font-family: system-ui, -apple-system, sans-serif; font-weight: 600; font-size: 14px; fill: #e2e8f0; }
+      .card-title { font-family: system-ui, -apple-system, sans-serif; font-weight: 700; font-size: 16px; fill: #38bdf8; }
+      .card-sub { font-family: system-ui, -apple-system, sans-serif; font-weight: 400; font-size: 13px; fill: #94a3b8; }
+
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.3; transform: scale(1); }
+        50% { opacity: 0.6; transform: scale(1.05); }
+      }
+
+      @keyframes floatCard1 {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-8px); }
+      }
+
+      @keyframes floatCard2 {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(8px); }
+      }
+
+      @keyframes dashFlow {
+        to { stroke-dashoffset: -40; }
+      }
+
+      .animated-bg-orb1 { animation: pulseGlow 6s ease-in-out infinite; transform-origin: 200px 100px; }
+      .animated-bg-orb2 { animation: pulseGlow 8s ease-in-out infinite 1s; transform-origin: 1000px 300px; }
+      .floating-card-1 { animation: floatCard1 5s ease-in-out infinite; }
+      .floating-card-2 { animation: floatCard2 6s ease-in-out infinite 0.5s; }
+      .flow-line { stroke-dasharray: 8 8; animation: dashFlow 2s linear infinite; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="400" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Dynamic Glowing Orbs in Background (Behind Text and Cards) -->
+  <circle class="animated-bg-orb1" cx="200" cy="100" r="150" fill="#6366f1" opacity="0.25" filter="url(#glow)" />
+  <circle class="animated-bg-orb2" cx="1000" cy="300" r="180" fill="#a855f7" opacity="0.25" filter="url(#glow)" />
+
+  <!-- Animated Connection Flows (Background Layer) -->
+  <path class="flow-line" d="M 850 130 C 950 130, 950 260, 1050 260" stroke="#818cf8" stroke-width="2" fill="none" opacity="0.5" />
+  <path class="flow-line" d="M 850 270 C 950 270, 950 140, 1050 140" stroke="#c084fc" stroke-width="2" fill="none" opacity="0.5" />
+
+  <!-- Decorative Interactive Node Elements on Right Side -->
+  <g class="floating-card-1">
+    <rect x="830" y="80" width="260" height="90" rx="12" fill="url(#cardGrad1)" stroke="#334155" stroke-width="1.5" filter="url(#glow)" />
+    <circle cx="865" cy="125" r="18" fill="#0284c7" opacity="0.3" />
+    <text x="865" y="131" font-family="sans-serif" font-size="18" fill="#38bdf8" text-anchor="middle">🏢</text>
+    <text class="card-title" x="898" y="118">Enterprise RAG</text>
+    <text class="card-sub" x="898" y="138">Grounding &amp; 100+ Connectors</text>
+  </g>
+
+  <g class="floating-card-2">
+    <rect x="830" y="220" width="260" height="90" rx="12" fill="url(#cardGrad1)" stroke="#334155" stroke-width="1.5" filter="url(#glow)" />
+    <circle cx="865" cy="265" r="18" fill="#9333ea" opacity="0.3" />
+    <text x="865" y="271" font-family="sans-serif" font-size="18" fill="#c084fc" text-anchor="middle">🤖</text>
+    <text class="card-title" x="898" y="258" fill="#c084fc">Autonomous Agents</text>
+    <text class="card-sub" x="898" y="278">Multi-Modal Workflows</text>
+  </g>
+
+  <!-- Foreground Title and Subtitle (Ensured crisp, clear, unobstructed foreground) -->
+  <g transform="translate(80, 0)">
+    <!-- Header Badge -->
+    <rect x="0" y="75" width="270" height="34" rx="17" fill="#1e293b" stroke="#475569" stroke-width="1" />
+    <circle cx="18" cy="92" r="6" fill="#10b981" />
+    <text class="badge-text" x="32" y="97">Oct 2026 Enterprise AI Ecosystem</text>
+
+    <!-- Main Title -->
+    <text class="title" x="0" y="165">Awesome Generative AI</text>
+    <text class="title" x="0" y="220">Business Assistant</text>
+
+    <!-- Subtitle -->
+    <text class="subtitle" x="0" y="270">Curated Commercial AI Platforms &amp; Self-Hosted Open-Source Frameworks</text>
+
+    <!-- Category Pills -->
+    <g transform="translate(0, 305)">
+      <!-- Pill 1 -->
+      <rect x="0" y="0" width="130" height="32" rx="8" fill="#0f172a" stroke="#38bdf8" stroke-width="1" />
+      <text class="badge-text" x="16" y="21" fill="#38bdf8">Copilot &amp; Gemini</text>
+
+      <!-- Pill 2 -->
+      <rect x="142" y="0" width="120" height="32" rx="8" fill="#0f172a" stroke="#818cf8" stroke-width="1" />
+      <text class="badge-text" x="158" y="21" fill="#818cf8">Glean &amp; Q</text>
+
+      <!-- Pill 3 -->
+      <rect x="274" y="0" width="145" height="32" rx="8" fill="#0f172a" stroke="#c084fc" stroke-width="1" />
+      <text class="badge-text" x="290" y="21" fill="#c084fc">Onyx, Khoj &amp; Dify</text>
+    </g>
+  </g>
+</svg>
