@@ -75,49 +75,49 @@ The enterprise generative AI assistant market is estimated at **$15.8 Billion** 
 *Sorted by GitHub_Stars_Count (Descending)* 🌟
 
 - **[Open WebUI](https://github.com/open-webui/open-webui)** [![Stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social&color=white)](https://github.com/open-webui/open-webui/stargazers)  
-  **Self-hosted ChatGPT-style UI with RAG**, MIT licensed. **124K+ GitHub stars** — **supports Ollama, OpenAI-compatible APIs, MCP servers, and RAG with 9+ vector databases** . **Multi-user RBAC and LDAP/SSO** . **The most deployed self-hosted AI chat platform** . 🔒
+  **Self-hosted ChatGPT-style UI with RAG**, MIT licensed. **124K+ GitHub_Stars** — **supports Ollama, OpenAI-compatible APIs, MCP servers, and RAG with 9+ vector databases** . **Multi-user RBAC and LDAP/SSO** . **The most deployed self-hosted AI chat platform** . 🔒
 
 - **[PrivateGPT](https://github.com/zylon-ai/private-gpt)** [![Stars](https://img.shields.io/github/stars/zylon-ai/private-gpt?style=social&color=white)](https://github.com/zylon-ai/private-gpt/stargazers)  
-  **Interact with your documents using local LLMs**, Apache-2.0 licensed. **55K+ GitHub stars** — **100% private** — no data leaves your environment . **RAG pipeline with local embeddings and LLMs** . 🔐
+  **Interact with your documents using local LLMs**, Apache-2.0 licensed. **55K+ GitHub_Stars** — **100% private** — no data leaves your environment . **RAG pipeline with local embeddings and LLMs** . 🔐
 
 - **[Dify](https://github.com/langgenius/dify)** [![Stars](https://img.shields.io/github/stars/langgenius/dify?style=social&color=white)](https://github.com/langgenius/dify/stargazers)  
-  **LLMOps platform with agentic workflows**, Apache-2.0 licensed. **40K+ GitHub stars** — **visual workflow builder combining LLM nodes, knowledge retrieval, tools, and conditional logic** . **Self-hosted or Dify Cloud** . 🎨
+  **LLMOps platform with agentic workflows**, Apache-2.0 licensed. **40K+ GitHub_Stars** — **visual workflow builder combining LLM nodes, knowledge retrieval, tools, and conditional logic** . **Self-hosted or Dify Cloud** . 🎨
 
 - **[RAGFlow](https://github.com/infiniflow/ragflow)** [![Stars](https://img.shields.io/github/stars/infiniflow/ragflow?style=social&color=white)](https://github.com/infiniflow/ragflow/stargazers)  
-  **Open-source RAG engine based on deep document understanding**, Apache-2.0 licensed. **40K+ GitHub stars** — **template-based chunking and grounded citations** . 📄
+  **Open-source RAG engine based on deep document understanding**, Apache-2.0 licensed. **40K+ GitHub_Stars** — **template-based chunking and grounded citations** . 📄
 
 - **[Quivr](https://github.com/QuivrHQ/quivr)** [![Stars](https://img.shields.io/github/stars/QuivrHQ/quivr?style=social&color=white)](https://github.com/QuivrHQ/quivr/stargazers)  
-  **Opinionated RAG for enterprise**, Apache-2.0 licensed. **38K+ GitHub stars** — **second brain for enterprise data** . **Multi-modal RAG with any LLM** . 🧩
+  **Opinionated RAG for enterprise**, Apache-2.0 licensed. **38K+ GitHub_Stars** — **second brain for enterprise data** . **Multi-modal RAG with any LLM** . 🧩
 
 - **[AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)** [![Stars](https://img.shields.io/github/stars/Mintplex-Labs/anything-llm?style=social&color=white)](https://github.com/Mintplex-Labs/anything-llm/stargazers)  
-  **All-in-one desktop and Docker AI application**, MIT licensed. **30K+ GitHub stars** — **RAG, AI agents, and multi-model support** . **Works with any LLM** . **Document ingestion with vector databases** . 📦
+  **All-in-one desktop and Docker AI application**, MIT licensed. **30K+ GitHub_Stars** — **RAG, AI agents, and multi-model support** . **Works with any LLM** . **Document ingestion with vector databases** . 📦
 
 - **[LocalAI](https://github.com/mudler/LocalAI)** [![Stars](https://img.shields.io/github/stars/mudler/LocalAI?style=social&color=white)](https://github.com/mudler/LocalAI/stargazers)  
-  **OpenAI-compatible API for local inference**, MIT licensed. **30K+ GitHub stars** — **drop-in replacement for OpenAI API** . **Runs LLMs, image generation, and speech on consumer hardware** . 🖥️
+  **OpenAI-compatible API for local inference**, MIT licensed. **30K+ GitHub_Stars** — **drop-in replacement for OpenAI API** . **Runs LLMs, image generation, and speech on consumer hardware** . 🖥️
 
 - **[Khoj](https://github.com/khoj-ai/khoj)** [![Stars](https://img.shields.io/github/stars/khoj-ai/khoj?style=social&color=white)](https://github.com/khoj-ai/khoj/stargazers)  
-  **Your AI second brain**, AGPL-3.0 licensed. **28K+ GitHub stars** — **self-hosted AI assistant** that searches across **documents, notes, and the web** . **Supports local LLMs (Llama, Mistral) and cloud models (GPT-4, Claude)** . **WhatsApp, Emacs, Obsidian, and browser integration** . 🧠
+  **Your AI second brain**, AGPL-3.0 licensed. **28K+ GitHub_Stars** — **self-hosted AI assistant** that searches across **documents, notes, and the web** . **Supports local LLMs (Llama, Mistral) and cloud models (GPT-4, Claude)** . **WhatsApp, Emacs, Obsidian, and browser integration** . 🧠
 
 - **[LibreChat](https://github.com/danny-avila/LibreChat)** [![Stars](https://img.shields.io/github/stars/danny-avila/LibreChat?style=social&color=white)](https://github.com/danny-avila/LibreChat/stargazers)  
-  **Enhanced ChatGPT clone with multi-model support**, MIT licensed. **25K+ GitHub stars** — **supports OpenAI, Anthropic, Google, and local models** . **Agents, code interpreter, and file uploads** . 💬
+  **Enhanced ChatGPT clone with multi-model support**, MIT licensed. **25K+ GitHub_Stars** — **supports OpenAI, Anthropic, Google, and local models** . **Agents, code interpreter, and file uploads** . 💬
 
 - **[Continue](https://github.com/continuedev/continue)** [![Stars](https://img.shields.io/github/stars/continuedev/continue?style=social&color=white)](https://github.com/continuedev/continue/stargazers)  
-  **Open-source IDE extensions for AI coding**, Apache-2.0 licensed. **20K+ GitHub stars** — **VS Code and JetBrains plugins** that connect to any LLM . 🔌
+  **Open-source IDE extensions for AI coding**, Apache-2.0 licensed. **20K+ GitHub_Stars** — **VS Code and JetBrains plugins** that connect to any LLM . 🔌
 
 - **[Danswer (Onyx)](https://github.com/onyx-dot-app/onyx)** [![Stars](https://img.shields.io/github/stars/onyx-dot-app/onyx?style=social&color=white)](https://github.com/onyx-dot-app/onyx/stargazers)  
-  **The leading open-source enterprise AI assistant**, MIT licensed. **15K+ GitHub stars** — **40+ connectors** for Slack, Google Drive, Confluence, Jira, Notion, and more . **RAG-based answers with citations** . **Custom assistants and agents** . **Self-hosted for full data sovereignty** . **The most comprehensive open-source enterprise AI platform** . 🏢
+  **The leading open-source enterprise AI assistant**, MIT licensed. **15K+ GitHub_Stars** — **40+ connectors** for Slack, Google Drive, Confluence, Jira, Notion, and more . **RAG-based answers with citations** . **Custom assistants and agents** . **Self-hosted for full data sovereignty** . **The most comprehensive open-source enterprise AI platform** . 🏢
 
 - **[AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)** [![Stars](https://img.shields.io/github/stars/AppFlowy-IO/AppFlowy?style=social&color=white)](https://github.com/AppFlowy-IO/AppFlowy/stargazers)  
-  **Open-source Notion alternative with AI workspace features**, AGPL-3.0 licensed. **58K+ GitHub stars** — **offline-first workspace** with built-in AI assistant for notes, tasks, and document synthesis . 📝
+  **Open-source Notion alternative with AI workspace features**, AGPL-3.0 licensed. **58K+ GitHub_Stars** — **offline-first workspace** with built-in AI assistant for notes, tasks, and document synthesis . 📝
 
 - **[LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)** [![Stars](https://img.shields.io/github/stars/hiyouga/LLaMA-Factory?style=social&color=white)](https://github.com/hiyouga/LLaMA-Factory/stargazers)  
-  **Unified fine-tuning framework for 100+ LLMs**, Apache-2.0 licensed. **37K+ GitHub stars** — **easy WebUI for fine-tuning enterprise LLMs** with LoRA, QLoRA, and DPO . ⚙️
+  **Unified fine-tuning framework for 100+ LLMs**, Apache-2.0 licensed. **37K+ GitHub_Stars** — **easy WebUI for fine-tuning enterprise LLMs** with LoRA, QLoRA, and DPO . ⚙️
 
 - **[FastGPT](https://github.com/labring/FastGPT)** [![Stars](https://img.shields.io/github/stars/labring/FastGPT?style=social&color=white)](https://github.com/labring/FastGPT/stargazers)  
-  **Knowledge-base platform built on LLMs**, Apache-2.0 licensed. **18K+ GitHub stars** — **visual workflow orchestration for complex enterprise RAG and customer service bots** . ⚡
+  **Knowledge-base platform built on LLMs**, Apache-2.0 licensed. **18K+ GitHub_Stars** — **visual workflow orchestration for complex enterprise RAG and customer service bots** . ⚡
 
 - **[Dust.tt (Open Source)](https://github.com/dust-tt/dust)** [![Stars](https://img.shields.io/github/stars/dust-tt/dust?style=social&color=white)](https://github.com/dust-tt/dust/stargazers)  
-  **Open-source AI assistant platform**, open-source. **15K+ GitHub stars** — **Custom AI assistants grounded in company data** . **Connects to Slack, Notion, and Google Drive** . 🌟
+  **Open-source AI assistant platform**, open-source. **15K+ GitHub_Stars** — **Custom AI assistants grounded in company data** . **Connects to Slack, Notion, and Google Drive** . 🌟
 
 ---
 
@@ -152,7 +152,7 @@ If you find this generative AI business assistant repository useful, please cons
 
 - This is a **community-curated** list — not exhaustive and not an official endorsement. ℹ️
 - **Microsoft Copilot costs $30/user/month** and **Google Gemini Enterprise costs $30/user/month** — both require annual commitments . **Amazon Q Business starts at $20/user/month** . **ChatGPT Enterprise costs $60/user/month** with unlimited GPT-4o access .
-- **Danswer (Onyx) is the leading open-source enterprise AI assistant** with **15K+ GitHub stars**, **40+ connectors**, and **self-hosted deployment** for full data sovereignty . **Khoj provides a self-hosted AI second brain** with **28K+ GitHub stars** and **local LLM support** .
+- **Danswer (Onyx) is the leading open-source enterprise AI assistant** with **15K+ GitHub_Stars**, **40+ connectors**, and **self-hosted deployment** for full data sovereignty . **Khoj provides a self-hosted AI second brain** with **28K+ GitHub_Stars** and **local LLM support** .
 - **Open-source enterprise AI assistants are not turnkey** — they require **deployment, connector configuration, vector database setup, and ongoing maintenance** . **Danswer requires PostgreSQL, Redis, and a vector database** . **Khoj requires local or cloud LLM configuration** . **Always validate data access controls and answer accuracy with a proof-of-concept** before production deployment . 🤖
 
 ---
